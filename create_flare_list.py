@@ -3,7 +3,7 @@ from sunpy.net import attrs as a
 
 event_type = "FL"
 tstart = "2010/4/30"
-tend = "2022/10/31"
+tend = "2022/11/30"
 result = Fido.search(a.Time(tstart, tend),
                      a.hek.EventType(event_type),
                      a.hek.FL.GOESCls > "C1.0",
